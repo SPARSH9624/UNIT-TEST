@@ -63,7 +63,7 @@ class TestEmployee(unittest.TestCase):
         self.emp2.first='Jake'
 
         self.assertEqual(self.emp1.email,'John.Fat@gmail.com')
-        self.assertEqual(self.emp1.email,'Jake.Hanks@gmail.com')
+        self.assertEqual(self.emp2.email,'Jake.Hanks@gmail.com')
 
     def test_fullname(self):
 
@@ -82,7 +82,7 @@ class TestEmployee(unittest.TestCase):
         self.emp2.apply_raise()
 
         self.assertEqual(self.emp1.pay,52500)
-        self.assertEqual(self.emp2.pay,63000)
+        self.assertEqual(self.emp2.pay,68250)
 
 
 
